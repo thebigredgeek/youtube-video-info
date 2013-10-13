@@ -6,21 +6,15 @@ Extracts meta-information about a youtube info.
 Install the module with: `npm install youtube-video-info`
 
 ```javascript
-var youtube_video_info = require('youtube-video-info');
-youtube_video_info.awesome(); // "awesome"
+var yvi = require('youtube-video-info');
+
+yvi('ZGGWy8G-GA').then(function(data){ //video id 'ZGGWy8G-GA'
+    console.log(data); //spits out JSO meta data about the video
+});
 ```
-
-## Documentation
-_(Coming soon)_
-
-## Examples
-_(Coming soon)_
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
-
-## Release History
-_(Nothing yet)_
 
 ## License
 Copyright (c) 2013 Andrew E. Rhyne  
