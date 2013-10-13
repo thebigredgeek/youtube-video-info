@@ -1,7 +1,7 @@
 {
   "name": "youtube-video-info",
   "description": "Extracts meta-information about a youtube info.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/thebigredgeek/youtube-video-info",
   "author": {
     "name": "Andrew E. Rhyne",
