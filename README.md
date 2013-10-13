@@ -10,7 +10,7 @@ var yvi = require('youtube-video-info');
 
 yvi('ZGGWy8G-GA').then(function(data){ //video id 'ZGGWy8G-GA'
     console.log(data); //spits out JSO meta data about the video
-});
+}); 
 ```
 
 ## Contributing
